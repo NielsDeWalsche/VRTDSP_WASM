@@ -1,0 +1,9 @@
+{
+  "name": "rust_lib_vrtdsp_gui",
+  "version": "0.1.0",
+  "files": [
+    "rust_lib_vrtdsp_gui_bg.wasm",
+    "rust_lib_vrtdsp_gui.js"
+  ],
+  "browser": "rust_lib_vrtdsp_gui.js"
+}
