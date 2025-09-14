@@ -669,11 +669,11 @@ let wasm_bindgen;
             const ret = false;
             return ret;
         };
-        imports.wbg.__wbindgen_closure_wrapper556 = function(arg0, arg1, arg2) {
+        imports.wbg.__wbindgen_closure_wrapper554 = function(arg0, arg1, arg2) {
             const ret = makeMutClosure(arg0, arg1, 150, __wbg_adapter_32);
             return ret;
         };
-        imports.wbg.__wbindgen_closure_wrapper647 = function(arg0, arg1, arg2) {
+        imports.wbg.__wbindgen_closure_wrapper645 = function(arg0, arg1, arg2) {
             const ret = makeMutClosure(arg0, arg1, 185, __wbg_adapter_35);
             return ret;
         };
@@ -744,7 +744,7 @@ let wasm_bindgen;
     }
 
     function __wbg_init_memory(imports, memory) {
-        imports.wbg.memory = memory || new WebAssembly.Memory({initial:471,maximum:16384,shared:true});
+        imports.wbg.memory = memory || new WebAssembly.Memory({initial:37,maximum:16384,shared:true});
     }
 
     function __wbg_finalize_init(instance, module, thread_stack_size) {
