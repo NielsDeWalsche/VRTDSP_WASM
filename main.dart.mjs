@@ -510,6 +510,7 @@ class CompiledApp {
       _1417: x0 => x0.close(),
       _1418: x0 => x0.close(),
       _1419: (x0,x1,x2,x3,x4) => globalThis.wasm_bindgen.frb_pde_ffi_dispatcher_primary(x0,x1,x2,x3,x4),
+      _1420: (x0,x1,x2,x3) => globalThis.wasm_bindgen.frb_pde_ffi_dispatcher_sync(x0,x1,x2,x3),
       _1422: () => globalThis.wasm_bindgen.frb_get_rust_content_hash(),
       _1433: (x0,x1) => x0.createElement(x1),
       _1436: f => finalizeWrapper(f, function(x0) { return dartInstance.exports._1436(f,arguments.length,x0) }),
